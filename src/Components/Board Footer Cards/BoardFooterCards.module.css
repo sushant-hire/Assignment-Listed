@@ -1,0 +1,121 @@
+.BoardFooterCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.MappedBoardFooterCards h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+
+.MappedBoardFooterCards p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color: #999999;
+}
+
+.MappedBoardFooterCards span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+
+.CardTwo {
+  background: #ffffff;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 22px;
+}
+
+.CardOne {
+  background: #ffffff;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 22px;
+}
+
+.CardTwo h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.CardTwo h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.CardOne h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.CardTwoHeadings {
+  display: flex;
+  gap: 240px;
+  align-items: center;
+}
+
+.CardOneHeadings {
+  display: flex;
+  gap: 215px;
+  align-items: center;
+}
+
+.CardOne h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.PieData h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+}

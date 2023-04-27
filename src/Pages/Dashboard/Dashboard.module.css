@@ -1,0 +1,9 @@
+body {
+  background: #f8f8f8;
+}
+
+.DashboardContainer {
+  display: grid;
+  grid-template-columns: 0.31fr 1fr;
+  margin: 40px;
+}

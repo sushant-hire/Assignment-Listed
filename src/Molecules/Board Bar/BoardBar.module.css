@@ -1,0 +1,41 @@
+.BoardBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.BoardBarContainer div {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.BoardBarContainer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding-left: 15px;
+  background-image: url("data:image/svg+xml,%3Csvg width='13' height='12' viewBox='0 0 13 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='5' cy='5' r='4.5' stroke='%23858585'/%3E%3Cline x1='8.35355' y1='7.64645' x2='12.3536' y2='11.6464' stroke='%23858585'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 180px;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

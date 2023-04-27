@@ -1,0 +1,25 @@
+.BoardElements {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  left: 17.86%;
+  top: 12.72%;
+}
+
+.MappedBoardElements {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.MappedBoardElements span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #ffffff;
+}

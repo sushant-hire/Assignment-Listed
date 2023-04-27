@@ -1,0 +1,45 @@
+.BoardCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.MappedBoardCardsContainer {
+  height: 120px;
+  width: 221.05px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.MappedBoardCardsContainer span {
+  position: relative;
+  left: 76%;
+  top: 14.55%;
+  bottom: 83.11%;
+}
+
+.MappedBoardCardsContainer p {
+  position: relative;
+  width: 124px;
+  height: 17px;
+  left: 25px;
+  top: 1rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.MappedBoardCardsContainer h1 {
+  position: relative;
+  width: 124px;
+  height: 33px;
+  left: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
